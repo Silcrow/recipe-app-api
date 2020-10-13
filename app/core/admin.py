@@ -23,8 +23,5 @@ class userAdmin(BaseUserAdmin):
         }),
     )
 
+
 admin.site.register(models.User, userAdmin)
-
-
-
-
